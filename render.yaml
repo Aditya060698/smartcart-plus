@@ -26,4 +26,4 @@ services:
         - frontend/**/*
     envVars:
       - key: REACT_APP_API_BASE_URL
-        value: https://smartcart-backend.onrender.com/api
+        value: https://smartcart-backend.onrender.com/api/
