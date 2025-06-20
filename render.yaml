@@ -25,11 +25,11 @@ services:
     region: singapore
     plan: free
     rootDir: frontend
-    buildCommand: npm run build
+    buildCommand: npm install && npm run build
     startCommand: serve -s build
     buildFilter:
       paths:
         - frontend/**/*
     envVars:
       - key: REACT_APP_API_BASE_URL
-        value: https://smartcart-backend-c68g.onrender.com/api/
+        value: https://smartcart-backend-r9l1.onrender.com//api/
