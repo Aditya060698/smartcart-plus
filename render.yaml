@@ -2,6 +2,7 @@ services:
   - type: web
     name: smartcart-backend
     runtime: docker
+    region: singapore
     dockerfilePath: ./backend/Dockerfile
     plan: free
     buildFilter:
@@ -21,6 +22,7 @@ services:
   - type: web
     name: smartcart-frontend
     runtime: node
+    region: singapore
     plan: free
     rootDir: frontend
     buildCommand: npm run build
