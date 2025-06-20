@@ -11,7 +11,7 @@ services:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: DATABASE_URL
-        value: jdbc:postgresql://dpg-d142m5ogjchc73fnccs0-a/personal_projects_db_z83i
+        value: jdbc:postgresql://dpg-d142m5ogjchc73fnccs0-a:5432/personal_projects_db_z83i
       - key: DATABASE_USER
         value: personal_projects_db_z83i_user
       - key: DATABASE_PASSWORD
